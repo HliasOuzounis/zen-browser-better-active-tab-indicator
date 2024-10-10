@@ -1,5 +1,5 @@
-# Better Active Tab Indicator
+# Better Better Active Tab Indicator
 
-Adds a bright line next to the active tab to better highlight it.
+A fork of HliasOuzounisAdds' project which makes the better active tab indicator more consistent with existing Zen UI design :-)
 
 ![Active tab](images/active-indicator.png)
