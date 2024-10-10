@@ -1,11 +1,10 @@
-.tab-background {
-  position: relative;
-}
-
-.tab-background[selected='']::after {
-  content: '';
-  position: absolute;
-  width: 3px;
-  height: 100%;
-  background-color: var(--zen-primary-color);
+.tab-background[selected='']::before {
+    content: '';
+    display: block;
+    height: 70%;
+    width: 5px;
+    background-color: var(--zen-primary-color);
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 15%;
 }
