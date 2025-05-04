@@ -3,5 +3,6 @@
         "property": "theme.better-active-tab.on-right",
         "label": "Move tha active tab indicator to the right",
         "type": "checkbox"
+        "defaultValue": false
     }
 ]
