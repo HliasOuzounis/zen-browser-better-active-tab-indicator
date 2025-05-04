@@ -6,13 +6,15 @@
     content: '';
     position: absolute;
     top: 0px;
+    left: 0px; 
     width: 3px;
     height: 100%;
     background-color: var(--zen-primary-color);
 }
 
-@media (-moz-bool-pref: "theme.better-active-tab.on-right"){
+@media (-moz-bool-pref: "theme.better-active-tab.on-right") {
     .tab-background[selected='']::after {
+        left: unset; 
         right: 0px;
     }
 }
