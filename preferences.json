@@ -8,7 +8,7 @@
 
     {
         "property": "theme.better-active-tab.tab-color",
-        "label": "Change indicator color",
+        "label": "Change indicator color, use hex code",
         "type": "string",
         "defaultValue": "var(--zen-primary-color)"
     }
