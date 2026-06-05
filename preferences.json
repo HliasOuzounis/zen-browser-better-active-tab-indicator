@@ -10,7 +10,7 @@
         "property": "theme.better-active-tab.tab-color",
         "label": "Change indicator color",
         "type": "string",
-        "defaultValue": var(--zen-primary-color)
+        "defaultValue": "var(--zen-primary-color)"
     }
     
 ]
