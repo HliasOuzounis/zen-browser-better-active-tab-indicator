@@ -13,7 +13,7 @@
         background-color: var(--zen-primary-color);
     }
 
-    @media (-moz-pref("mod.betteractivetab.hexcode", "var(--mod-betteractivetab-hexcode)")) {
+    @media (-moz-pref("mod.betteractivetab.tabcolor", "var(--mod-betteractivetab-hexcode)")) {
         background-color: var(--mod-betteractivetab-hexcode);
     }
 }
