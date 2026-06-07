@@ -4,7 +4,7 @@
         "label": "Move the active tab indicator to the right",
         "type": "checkbox"
         "defaultValue": false
-    }
+    },
 
     {
         "property": "theme.better-active-tab.tab-color",
