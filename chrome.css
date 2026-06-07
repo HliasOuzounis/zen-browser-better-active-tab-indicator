@@ -2,7 +2,7 @@
     position: relative;
 }
 
-.tab-background[selected='']::after {
+.tab-background[selected]::after {
     content: '';
     position: absolute;
     top: 0px;
@@ -12,8 +12,8 @@
     background-color: var(--zen-primary-color);
 }
 
-@media (-moz-bool-pref: "theme.better-active-tab.on-right") {
-    .tab-background[selected='']::after {
+@media (-moz-pref("theme.better-active-tab.on-right")) {
+    .tab-background[selected]::after {
         left: unset; 
         right: 0px;
     }
