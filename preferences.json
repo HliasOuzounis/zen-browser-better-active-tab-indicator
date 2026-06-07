@@ -9,7 +9,6 @@
         "property": "mod.betteractivetab.tabwidth",
         "label": "Change indicator width",
         "type": "dropdown",
-        "placeholder": "Select one",
         "defaultValue": "3px",
         "options": [
           {
@@ -38,7 +37,6 @@
         "property": "mod.betteractivetab.tabcolor",
         "label": "Change indicator color type",
         "type": "dropdown",
-        "placeholder": "Select one",
         "defaultValue": "default",
         "options": [
           {
