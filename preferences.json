@@ -6,6 +6,35 @@
         "defaultValue": false
     },
     {
+        "property": "mod.betteractivetab.tabwidth",
+        "label": "Change indicator width",
+        "type": "dropdown",
+        "placeholder": "Select one",
+        "defaultValue": "3px",
+        "options": [
+          {
+            "label": "Smallest",
+            "value": "3px"
+          },
+          {
+            "label": "Small",
+            "value": "4px"
+          },
+          {
+            "label": "Medium",
+            "value": "5px"
+          },
+          {
+            "label": "Large",
+            "value": "6px"
+          },
+          {
+            "label": "Largest",
+            "value": "7px"
+          }
+        ]
+    },
+    {
         "property": "mod.betteractivetab.tabcolor",
         "label": "Change indicator color type",
         "type": "dropdown",
