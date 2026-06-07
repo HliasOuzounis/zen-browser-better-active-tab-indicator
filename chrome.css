@@ -25,6 +25,10 @@
     @media (-moz-pref("mod.betteractivetab.tabwidth", "7px")) {
         width: 7px;
     }
+    @media (-moz-pref("mod.betteractivetab.custom")) {
+        background-color: var(--mod-betteractivetab-hexcode);
+    }
+}
 }
 
 @media (-moz-pref("mod.betteractivetab.onright")) {
@@ -34,10 +38,6 @@
     }
 }
 
-@media (-moz-pref("mod.betteractivetab.custom")) {
-  .tab-background[selected='']::after {
-        background-color: var(--mod-betteractivetab-hexcode);
-    }
-}
+
 
 
