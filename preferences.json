@@ -1,16 +1,14 @@
 [
     {
-        "property": "theme.better-active-tab.on-right",
+        "property": "mod.betteractivetab.onright",
         "label": "Move the active tab indicator to the right",
-        "type": "checkbox"
+        "type": "checkbox",
         "defaultValue": false
     },
-
     {
-        "property": "theme.better-active-tab.tab-color",
-        "label": "Change indicator color, use hex code",
+        "property": "mod.betteractivetab.tabcolor",
+        "label": "Change indicator color using hex code",
         "type": "string",
         "defaultValue": "var(--zen-primary-color)"
     }
-    
 ]
