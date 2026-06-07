@@ -9,10 +9,10 @@
     left: 0px; 
     width: 3px;
     height: 100%;
-    background-color: var(--theme-better-active-tab-tab-color);
+    background-color: var(--mod-betteractivetab-tabcolor);
 }
 
-@media (-moz-pref("theme.better-active-tab.on-right")) {
+@media (-moz-pref("mod.betteractivetab.onright")) {
   .tab-background[selected='']::after {
         left: unset; 
         right: 0px;
