@@ -34,7 +34,7 @@
         ]
     },
     {
-        "property": "mod.betteractivetab.tabcolor",
+        "property": "mod.betteractivetab.custom",
         "label": "Use custom indicator color",
         "type": "checkbox",
         "defaultValue": false,
