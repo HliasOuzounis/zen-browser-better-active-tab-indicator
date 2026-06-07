@@ -7,8 +7,25 @@
     },
     {
         "property": "mod.betteractivetab.tabcolor",
-        "label": "Change indicator color using hex code",
+        "label": "Change indicator color type",
+        "type": "dropdown",
+        "placeholder": "Select one",
+        "defaultValue": "var(--zen-primary-color)",
+        "options": [
+          {
+            "label": "Default with Zen theme",
+            "value": "var(--zen-primary-color)"
+          },
+          {
+            "label": "Custom (see below)",
+            "value": "var(--mod-betteractivetab-hexcode)"
+          }
+        ]
+    },
+    {
+        "property": "mod.betteractivetab.hexcode",
+        "label": "Custom indicator color hexcode",
         "type": "string",
-        "defaultValue": "var(--zen-primary-color)"
+        "placeholder": "#000000 to #FFFFFF"
     }
 ]
