@@ -8,6 +8,7 @@
     top: 0px;
     left: 0px; 
     height: 100%;
+    background-color: var(--zen-primary-color);
     
     @media (-moz-pref("mod.betteractivetab.tabwidth", "3px")) {
         width: 3px;
@@ -24,20 +25,18 @@
     @media (-moz-pref("mod.betteractivetab.tabwidth", "7px")) {
         width: 7px;
     }
-
-    
-    @media (-moz-pref("mod.betteractivetab.tabcolor", "default")) {
-        background-color: var(--zen-primary-color);
-    }
-    @media (-moz-pref("mod.betteractivetab.tabcolor", "custom")) {
-        background-color: var(--mod-betteractivetab-hexcode);
-    }
 }
 
 @media (-moz-pref("mod.betteractivetab.onright")) {
   .tab-background[selected='']::after {
         left: unset; 
         right: 0px;
+    }
+}
+
+@media (-moz-pref("mod.betteractivetab.custom")) {
+  .tab-background[selected='']::after {
+        background-color: var(--mod-betteractivetab-tabcolor);
     }
 }
 
