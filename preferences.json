@@ -35,19 +35,9 @@
     },
     {
         "property": "mod.betteractivetab.tabcolor",
-        "label": "Change indicator color type",
-        "type": "dropdown",
-        "defaultValue": "default",
-        "options": [
-          {
-            "label": "Default with Zen theme",
-            "value": "default"
-          },
-          {
-            "label": "Custom (see below)",
-            "value": "custom"
-          }
-        ]
+        "label": "Use custom indicator color",
+        "type": "checkbox",
+        "defaultValue": false,
     },
     {
         "property": "mod.betteractivetab.hexcode",
