@@ -2,6 +2,12 @@
 
 Adds a bright line next to the active tab to better highlight it.
 
-All custom colors must be in hexadecimal format, including the # before the digits. You can find an open-source online color tool [here](https://colorpicker.dev/#687cff), developed by [Brandon Mathis](https://github.com/imathis) (unaffiliated).
+| Feature | Description | Default |
+| :--- | :--- | :--- |
+| **Indicator Position** | Toggle between the left and right side of the active tab. | Left |
+| **Line Thickness** | Choose from 5 different width presets. | Smallest (3px) |
+| **Custom Coloring** | Match your setup by enabling a custom hex color code of your choice. | Theme Default |
+
+## Preview
 
 ![Active tab indicator example](/images/indicatorexample.png)
