@@ -7,14 +7,33 @@
     position: absolute;
     top: 0px;
     left: 0px; 
-    width: 3px;
     height: 100%;
     background-color: var(--zen-primary-color);
+
+    @media (-moz-pref("mod.better-active-tab.tab-width", "3px")) {
+        width: 3px;
+    }
+    @media (-moz-pref("mod.better-active-tab.tab-width", "4px")) {
+        width: 4px;
+    }
+    @media (-moz-pref("mod.better-active-tab.tab-width", "5px")) {
+        width: 5px;
+    }
+    @media (-moz-pref("mod.better-active-tab.tab-width", "6px")) {
+        width: 6px;
+    }
+    @media (-moz-pref("mod.better-active-tab.tab-width", "7px")) {
+        width: 7px;
+    }
+    @media (-moz-pref("mod.better-active-tab.custom")) {
+        background-color: var(--mod-better-active-tab-hexcode);
+    }
 }
 
-@media (-moz-pref("theme.better-active-tab.on-right")) {
+
+@media (-moz-pref("mod.better-active-tab.on-right")) {
     .tab-background[selected]::after {
-        left: unset; 
+        left: auto;
         right: 0px;
     }
 }
