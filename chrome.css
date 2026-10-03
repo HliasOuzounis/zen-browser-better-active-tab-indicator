@@ -8,7 +8,7 @@
     top: 0px;
     left: 0px; 
     height: 100%;
-    background-color: var(--zen-primary-color);
+    background-color: AccentColor;
 
     @media (-moz-pref("mod.better-active-tab.tab-width", "3px")) {
         width: 3px;
@@ -26,7 +26,7 @@
         width: 7px;
     }
     @media (-moz-pref("mod.better-active-tab.custom")) {
-        background-color: var(--mod-better-active-tab-hexcode);
+        background-color: var(--mod-better-active-tab-hexcode, AccentColor);
     }
 }
 
